@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang - Lomba Vokalist Musik</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 60vh;
+            background: url('R.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-attachment: fixed;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            animation: fadeIn 2s ease-out 0.5s;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: #ff9a85;
+        }
+
+        /* About Section */
+        .about {
+            padding: 50px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2.5em;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .about .timeline {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .about .timeline .event {
+            width: 30%;
+            background-color: #ff9a85;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .about .timeline .event h3 {
+            font-size: 1.8em;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .about .timeline .event p {
+            font-size: 1em;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 1.2em;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Tentang</a>
+        <a href="Pendaftaran.html">Pendaftaran</a>
+        <a href="contact.html">Kontak</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Tentang Lomba Vokalist Musik Nasional</h1>
+        <p>Menjadi ajang kompetisi vokalis terbaik di Indonesia, menyatukan talenta musik dari seluruh penjuru negeri.</p>
+    </section>
+
+    <!-- About Section -->
+    <div class="about">
+        <h2>Sejarah & Tujuan Lomba</h2>
+        <p>Lomba Vokalist Musik Nasional adalah kompetisi bergengsi yang diadakan setiap tahun untuk mencari bakat vokalis terbaik di Indonesia. Acara ini bertujuan untuk memberikan wadah bagi para penyanyi muda berbakat untuk tampil dan membuktikan kemampuan mereka di hadapan juri profesional dan penonton yang antusias. Selain itu, lomba ini juga bertujuan untuk mempromosikan musik Indonesia ke kancah internasional.</p>
+
+        <div class="timeline">
+            <div class="event">
+                <h3>2020</h3>
+                <p>Lomba Vokalist Musik Nasional pertama kali digelar dengan sukses di Jakarta, diikuti oleh peserta dari berbagai daerah di Indonesia.</p>
+            </div>
+            <div class="event">
+                <h3>2021</h3>
+                <p>Acara ini diperluas dengan lebih banyak kategori dan juri internasional, memberikan kesempatan lebih luas bagi peserta untuk bersaing.</p>
+            </div>
+            <div class="event">
+                <h3>2024</h3>
+                <p>Lomba semakin berkembang, menjadi acara tahunan yang disaksikan oleh ribuan penonton, dengan hadiah dan penghargaan menarik untuk para pemenang.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Panitia Lomba Vokalist Musik Nasional. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>

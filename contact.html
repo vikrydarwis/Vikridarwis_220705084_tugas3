@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Lomba Vokalist Musik</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 60vh;
+            background: url('penyanyi.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-attachment: fixed;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            animation: fadeIn 2s ease-out 0.5s;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: #ff9a85;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 50px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.5em;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .contact .social-links {
+            margin-top: 30px;
+        }
+
+        .contact .social-links a {
+            color: #ff6f61;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: color 0.3s ease;
+        }
+
+        .contact .social-links a:hover {
+            color: #ff4a3d;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 1.2em;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Tentang</a>
+        <a href="Pendaftaran.html">Pendaftaran</a>
+        <a href="contact.html">Kontak</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Kontak Kami</h1>
+        <p>Hubungi kami untuk pertanyaan lebih lanjut, atau ikuti kami di media sosial.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <div class="contact">
+        <h2>Kontak Kami</h2>
+        <p>Jika Anda memiliki pertanyaan atau ingin bergabung dalam acara kami, jangan ragu untuk menghubungi kami melalui informasi di bawah ini.</p>
+
+        <p><strong>Email:</strong> vocalist@musikindonesia.id</p>
+        <p><strong>Telepon:</strong> +62 812-3456-7890</p>
+        <p><strong>Alamat:</strong> Jalan Harmoni No. 20, Jakarta, Indonesia</p>
+
+        <div class="social-links">
+            <a href="https://facebook.com/vocalistmusik" target="_blank">Facebook</a>
+            <a href="https://twitter.com/vocalistmusik" target="_blank">Twitter</a>
+            <a href="https://instagram.com/vocalistmusik" target="_blank">Instagram</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Panitia Lomba Vokalist Musik Nasional. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
